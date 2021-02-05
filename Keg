@@ -1,0 +1,6 @@
+(source gnu melpa)
+
+(package (janum
+          (recipe . (:fetcher github :repo "ROCKTAKEY/janum"))))
+
+(dev-dependency undercover)

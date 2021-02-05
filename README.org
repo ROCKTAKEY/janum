@@ -1,0 +1,9 @@
+﻿[[https://github.com/ROCKTAKEY/janum][https://img.shields.io/github/tag/ROCKTAKEY/janum.svg?style=flat-square]]
+[[file:LICENSE][https://img.shields.io/github/license/ROCKTAKEY/janum.svg?style=flat-square]]
+[[https://codecov.io/gh/ROCKTAKEY/janum?branch=master][https://img.shields.io/codecov/c/github/ROCKTAKEY/janum.svg?style=flat-square]]
+[[https://github.com/ROCKTAKEY/janum/actions][https://img.shields.io/github/workflow/status/ROCKTAKEY/janum/CI/master.svg?style=flat-square]]
+* Control Japanese numbers
+
+* How to Use?
+* License
+  This package is licensed by GPLv3. See [[file:LICENSE][LICENSE]].
