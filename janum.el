@@ -27,7 +27,34 @@
 
 ;;; Code:
 
+(defconst janum--simple-number-list
+  '("〇" "一" "二" "三" "四" "五" "六" "七" "八" "九"))
 
+(defconst janum--complex-number-list
+  '("零" "壱" "弐" "参" "肆" "伍" "陸" "漆" "捌" "玖"))
+
+(defconst janum--other-number-lists
+  '(nil
+    ("弌" "壹")
+    ("弍" "貳" "貮")
+    ("參" "弎")
+    nil
+    nil
+    ("質" "柒")
+    nil
+    nil))
+
+(defconst janum--simple-digit-list
+  '("十" "百" "千"))
+
+(defconst janum--complex-digit-lists
+  '(("拾") ("陌" "佰") ("阡" "仟")))
+
+(defconst janum--simple-scale-list
+  '("万" "億" "兆" "京" "垓" "𥝱" "穣" "溝" "澗" "正" "載" "極" "恒河沙" "阿僧祇" "那由他" "不可思議" "無量大数"))
+
+(defconst janum--complex-scale-lists
+  '(("萬") nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil))
 
 (provide 'janum)
 ;;; janum.el ends here
